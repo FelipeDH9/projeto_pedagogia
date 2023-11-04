@@ -1,0 +1,142 @@
+/* Rosa pastel: #FFC0CB
+Azul pastel: #ADD8E6
+Amarelo pastel: #FFFFE0
+Verde pastel: #98FB98
+Lilás pastel: #E6E6FA
+Pêssego pastel: #FFDAB9
+Azul-celeste pastel: #B0E0E6
+Menta pastel: #98FF98
+Coral pastel: #FF6B6B
+Lavanda pastel: #E6E6FA */
+
+/* CORES:
+    Azul pastel: #ADD8E6, rgb(173 216 230)
+    Lavanda pastel: #E6E6FA, rgb(230 230 250)
+    Pêssego pastel: #FFDAB9, rgb(255 218 185)
+    Verde pastel: #B2DDC9, rgb(178 221 201)
+*/
+
+/* FONTES:
+    font-family: 'Dancing Script', cursive;
+    
+
+
+
+*/
+
+
+
+/* CRIAÇÃO DE VARIÁVEIS */
+:root {
+  --main-background: #B2DDC9;
+  --title-family: 'Dancing Script', cursive;
+  /* --body-font:; */
+  /* --title-family: "Inter"; */
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+/* manter o footer no final da página */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-background);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: auto;
+}
+
+/* HEADER */
+nav {
+  height: 6rem;
+  border-bottom: 1px solid var(--main-background);
+}
+
+/* CAPA */
+.main-capa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curso {
+  position: absolute;
+  width: 360px;
+  height: 19px;
+  left: calc(50% - 360px / 2);
+  top: 80px;
+
+  font-family: var(--title-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #2c3593;
+}
+
+#projeto-int {
+  position: absolute;
+  width: 360px;
+  height: 29px;
+  left: calc(50% - 360px / 2);
+  top: 115px;
+
+  font-family: var(--title-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#welcome {
+  position: absolute;
+  width: 360px;
+  height: 78px;
+  left: calc(50% - 360px / 2);
+  top: 240px;
+
+  font-family: var(--title-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #000000;
+}
+
+#uniso-logo {
+  position: absolute;
+  width: 403px;
+  height: 285px;
+  top: 299px;
+}
+
+#conhecer {
+  position: absolute;
+
+  bottom: 16.67%;
+
+  font-family: var(--title-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 9.5px 84.5px;
+}
+
+/* Mobile first desing */
+@media (max-width: 767px) {
+  /*  */
+}
