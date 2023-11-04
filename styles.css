@@ -17,11 +17,9 @@ Lavanda pastel: #E6E6FA */
 */
 
 /* FONTES:
-    font-family: 'Dancing Script', cursive;
-    
-
-
-
+    'Dancing Script', cursive;
+    'Open Sans', sans-serif;
+    'Lobster', sans-serif;
 */
 
 
@@ -29,7 +27,7 @@ Lavanda pastel: #E6E6FA */
 /* CRIAÇÃO DE VARIÁVEIS */
 :root {
   --main-background: #B2DDC9;
-  --title-family: 'Dancing Script', cursive;
+  --title-family: 'Lobster', sans-serif;
   /* --body-font:; */
   /* --title-family: "Inter"; */
   /* font-family: "Open Sans", sans-serif; */
