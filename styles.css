@@ -20,6 +20,7 @@ Lavanda pastel: #E6E6FA */
     'Dancing Script', cursive;
     'Open Sans', sans-serif;
     'Lobster', sans-serif;
+    'Poppins', sans-serif;
 */
 
 
@@ -27,11 +28,16 @@ Lavanda pastel: #E6E6FA */
 /* CRIAÇÃO DE VARIÁVEIS */
 :root {
   --main-background: #B2DDC9;
-  --title-family: 'Lobster', sans-serif;
+  --title-family: 'Poppins', sans-serif;
+  --text-color: #000000;
+  --clear-text-color: #fff;
+  --curso-color: #2c3593;
+  --offcanvas-bg: #191919;
   /* --body-font:; */
   /* --title-family: "Inter"; */
   /* font-family: "Open Sans", sans-serif; */
 }
+
 
 /* manter o footer no final da página */
 body {
@@ -42,29 +48,67 @@ body {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   margin-top: auto;
 }
 
-/* HEADER */
-nav {
-  height: 6rem;
-  border-bottom: 1px solid var(--main-background);
+a {
+  text-decoration: none;
 }
 
-/* CAPA */
+/* HEADER */
+header {
+  border-bottom: 1px solid black;
+  /* display: flex; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: var(--text-color);
+}
+
+nav button {
+  background: none;
+  border: none;
+}
+
+nav button img {
+  width: 1.5rem;
+
+}
+
+.logo-pedagogia {
+  width: 4rem;
+}
+
+.nome-projeto {
+  font-size: .75rem;
+  color: var(--curso-color);
+  padding: 0;
+  margin: 0;
+
+}
+
+.pedagogia-e-nome-projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------ CAPA ------ */
 .main-capa {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.curso {
-  position: absolute;
-  width: 360px;
-  height: 19px;
-  left: calc(50% - 360px / 2);
-  top: 80px;
+#capa-curso {
+  margin-top: 5rem;
 
   font-family: var(--title-family);
   font-style: normal;
@@ -73,16 +117,10 @@ nav {
   line-height: 19px;
   text-align: center;
 
-  color: #2c3593;
+  color: var(--curso-color);
 }
 
-#projeto-int {
-  position: absolute;
-  width: 360px;
-  height: 29px;
-  left: calc(50% - 360px / 2);
-  top: 115px;
-
+#capa-projeto-int {
   font-family: var(--title-family);
   font-style: normal;
   font-weight: 400;
@@ -90,15 +128,11 @@ nav {
   line-height: 29px;
   text-align: center;
 
-  color: #000000;
+  color: var(--text-color);
 }
 
-#welcome {
-  position: absolute;
-  width: 360px;
-  height: 78px;
-  left: calc(50% - 360px / 2);
-  top: 240px;
+#capa-bv {
+  margin-top: 5.5rem;
 
   font-family: var(--title-family);
   font-style: normal;
@@ -107,34 +141,91 @@ nav {
   line-height: 39px;
   text-align: center;
 
-  color: #000000;
+  color: var(--text-color);
 }
 
 #uniso-logo {
-  position: absolute;
-  width: 403px;
-  height: 285px;
-  top: 299px;
+  width: 200px;
+  margin-top: 70px;
 }
 
-#conhecer {
-  position: absolute;
-
-  bottom: 16.67%;
+#capa-btn {
+  color: var(--text-color);
 
   font-family: var(--title-family);
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  text-decoration: none;
 
-  border: 1px solid;
-  border-radius: 8px;
-  padding: 9.5px 84.5px;
+  border: 1px solid #F878B8;
+  border-radius: .5rem;
+  padding: .5rem 3rem;
+
+  margin-top: 7.7rem;
 }
+/* ------ FIM CAPA ------ */
+
+
+/* ------ MENU LATERAL (OFFCANVAS) ------ */
+.offcanvas {
+  background-color: var(--offcanvas-bg);
+  color: var(--clear-text-color);
+  padding: 0 28px;
+
+}
+.offcanvas .close {
+  color: var(--clear-text-color);
+  background: none;
+  border: none;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid var(--clear-text-color);
+  padding: 16px 0;
+  margin-bottom: 2rem;
+}
+
+.offcanvas-img {
+  width: 65px;
+}
+
+.offcanvas-body {
+  padding: 0;
+}
+
+.offcanvas-items {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.offcanvas-items img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.offcanvas-body a {
+  color: var(--clear-text-color);
+}
+
+.offcanvas-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offcanvas-footer img {
+  width: 2.8rem;
+  margin-bottom: .5rem;
+}
+.offcanvas p {
+  font-size: 14px;
+}
+
 
 /* Mobile first desing */
 @media (max-width: 767px) {
-  /*  */
+  .offcanvas {
+    max-width: 70%;
+  }
 }
