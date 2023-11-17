@@ -17,5 +17,5 @@
     <li>Natalia Aparecida da Silva</li>
     <li>Rafaela C. Barbosa</li>
     <li>Samara Stefani de Oliveira</li>
-    <li>"Vivi"</li>
+    <li>Viviane M. Rocha</li>
 </ul>
