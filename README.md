@@ -11,11 +11,11 @@
 
 ### Alunos e alunas do grupo de Pedagogia:
 <ul>
-    <li>""</li>
-    <li>"Rafaela"</li>
-    <li>"Bianca Campos"</li>
+    <li>Bianca Campos Aleixo</li>
     <li>Caio Henrique de Araújo Cruz</li>
-    <li>"Natalia"</li>
-    <li>"Vivi"</li>
+    <li>""</li>
+    <li>Natalia Aparecida da Silva</li>
+    <li>"Rafaela"</li>
     <li>Samara Stefani de Oliveira</li>
+    <li>"Vivi"</li>
 </ul>
