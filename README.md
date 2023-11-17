@@ -15,7 +15,7 @@
     <li>Caio Henrique de Araújo Cruz</li>
     <li>""</li>
     <li>Natalia Aparecida da Silva</li>
-    <li>"Rafaela"</li>
+    <li>Rafaela C. Barbosa</li>
     <li>Samara Stefani de Oliveira</li>
     <li>"Vivi"</li>
 </ul>
