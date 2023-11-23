@@ -374,9 +374,10 @@ E3CFFF - 29/11
 
 /* Timeline Container */
 .timeline {
-  /* margin: 20px auto; */
   padding: 20px;
 }
+
+
 
 /* Outer Layer with the timeline border */
 .outer {
@@ -386,10 +387,11 @@ E3CFFF - 29/11
 /* Card container */
 .card {
   /* position: relative; */
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px 48px;
   padding: 10px;
   border-radius: 8px;
   max-width: 400px;
+  text-align: center;
 }
 
 /* Information about the timeline */
@@ -399,22 +401,291 @@ E3CFFF - 29/11
   gap: 10px;
 }
 
-/* Title of the card */
-.title {
-  color: orangered;
-  position: relative;
+.info p{
+  margin-bottom: 0;
+  line-height: 1rem;
 }
 
-/* Timeline dot  */
-.title::before {
-  content: "";
+/* Title of the card */
+.title {
+  color: black;
+  position: relative;
+  line-height: 1rem;
+}
+
+/* Timeline dot colors */
+#DFCCFE::before {
+  content: "16/08";
   position: absolute;
-  width: 14px;
-  height: 14px;
-  background: white;
+  width: 60px;
+  height: 30px;
+  background: #DFCCFE;
   border-radius: 999px;
-  left: -39px;
+  left: -82px;
   border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.DFCCFE {
+  background-color: #DFCCFE;
+}
+
+
+#E7C4F1::before {
+  content: "23/08";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #E7C4F1;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.E7C4F1 {
+  background-color: #E7C4F1;
+}
+
+
+#FFBBE9::before {
+  content: "30/08";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #FFBBE9;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.FFBBE9 {
+  background-color: #FFBBE9;
+}
+
+#FEDBC6::before {
+  content: "06/09";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #FEDBC6;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.FEDBC6 {
+  background-color: #FEDBC6;
+}
+
+#FDD568::before {
+  content: "13/09";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #FDD568;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.FDD568 {
+  background-color: #FDD568;
+}
+
+
+#AFE666::before {
+  content: "20/09";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #AFE666;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.AFE666 {
+  background-color: #AFE666;
+}
+
+#z89E2EC::before {
+  content: "27/09";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #89E2EC;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.z89E2EC {
+  background-color: #89E2EC;
+}
+
+#z8FAAF4::before {
+  content: "04/10";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #8FAAF4;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.z8FAAF4 {
+  background-color: #8FAAF4;
+}
+
+#E0C8FF::before {
+  content: "11/10";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #E0C8FF;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.E0C8FF {
+  background-color: #E0C8FF;
+}
+
+#F2C0FF::before {
+  content: "18/10";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #F2C0FF;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.F2C0FF {
+  background-color: #F2C0FF;
+}
+
+#FCBCE4::before {
+  content: "01/11";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #FCBCE4;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.FCBCE4 {
+  background-color: #FCBCE4;
+}
+
+#FFB9E3::before {
+  content: "08/11";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #FFB9E3;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.FFB9E3 {
+  background-color: #FFB9E3;
+}
+
+#EABCFD::before {
+  content: "22/11";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #EABCFD;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.EABCFD {
+  background-color: #EABCFD;
+}
+
+#E3CFFF::before {
+  content: "29/11";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #E3CFFF;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+}
+
+.E3CFFF {
+  background-color: #E3CFFF;
+}
+
+#z91ABED::before {
+  content: "02/12";
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #91ABED;
+  border-radius: 999px;
+  left: -82px;
+  border: 2px solid black;
+  font-size: 1rem;
+  line-height: 28px;
+  top: -11px;
+  
+}
+
+.z91ABED {
+  background-color: #91ABED;
 }
 
 
