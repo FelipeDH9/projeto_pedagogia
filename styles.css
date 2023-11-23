@@ -355,6 +355,8 @@ section {
   opacity: 0.5;
 }
 
+
+/* ------ MAPA CONCEITUAL ------ */
 /* TIMELINE COLORS */
 /* DFCCFE - 16/08
 E7C4F1 - 23/08
@@ -376,7 +378,6 @@ E3CFFF - 29/11
 .timeline {
   padding: 20px;
 }
-
 
 
 /* Outer Layer with the timeline border */
@@ -689,6 +690,25 @@ E3CFFF - 29/11
 }
 
 
+/* ------ QR CODE ------ */
+.legenda {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 9.69px;
+  text-align: center;
+}
+
+.qr-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  /* height: auto;
+  width: 240px; */
+}
+.qr-code img {
+  width: 240px;
+}
 
 /* ------- PROPOSTAS COLAPSAVEIS ------- */
 .collapsible {
