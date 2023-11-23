@@ -13,9 +13,10 @@
 <ul>
     <li>Bianca Campos Aleixo</li>
     <li>Caio Henrique de Araújo Cruz</li>
-    <li>""</li>
+    <li>Edilson Depman Junior</li>
     <li>Natalia Aparecida da Silva</li>
     <li>Rafaela C. Barbosa</li>
     <li>Samara Stefani de Oliveira</li>
+    <li>Teresinha de Paula Souza</li>
     <li>Viviane M. Rocha</li>
 </ul>

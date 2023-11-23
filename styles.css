@@ -141,7 +141,7 @@ nav .interrogacao {
 }
 
 #capa-curso {
-  margin-top: 5rem;
+  margin-top: 3rem;
 
   font-family: var(--title-family);
   font-style: normal;
@@ -179,7 +179,7 @@ nav .interrogacao {
 
 #uniso-logo {
   width: 200px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 #capa-btn {
@@ -195,7 +195,7 @@ nav .interrogacao {
   border-radius: .5rem;
   padding: .5rem 3rem;
 
-  margin-top: 7.7rem;
+  margin-top: 4.7rem;
 }
 /* ------ FIM CAPA ------ */
 
@@ -270,6 +270,7 @@ section {
   border-radius: 20px;
   width: 57%;
   padding: 1rem 0;
+  max-width: 500px;
 }
 
 .divider {
@@ -736,6 +737,20 @@ E3CFFF - 29/11
   margin-top: 1rem;
 }
 
+
+/* ------ VIDEO AULA ------ */
+/* #video {
+  width: 70%;
+  height: 10vh;
+} */
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  max-width: 720px;
+}
+
+
+
 /* Mobile first desing */
 @media (max-width: 767px) {
   .container {
@@ -745,3 +760,10 @@ E3CFFF - 29/11
     max-width: 70%;
   }
 }
+
+/* @media (max-width: 359px) {
+  #video {
+    width: 70%;
+    height: 240px;
+  }
+} */
