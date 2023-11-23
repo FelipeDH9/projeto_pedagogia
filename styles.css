@@ -708,7 +708,8 @@ E3CFFF - 29/11
   width: 240px; */
 }
 .qr-code img {
-  width: 240px;
+  width: 70%;
+  max-width: 300px;
 }
 
 /* ------- PROPOSTAS COLAPSAVEIS ------- */
