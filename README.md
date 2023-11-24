@@ -5,8 +5,7 @@
 ### Alunos do Núcleo de TI envolvidos:
 <ul>
     <li>Felipe David Haddad - Desenvolvimento Front-End</li>
-    <li>Lucas - Desenvolvimento Front-End</li> 
-    <li>Lucas - UI/UX</li>
+    <li>Lucas Vinicius Mariano da Silva - UI/UX</li>
 </ul>
 
 ### Alunos e alunas do grupo de Pedagogia:

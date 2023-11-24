@@ -738,12 +738,11 @@ E3CFFF - 29/11
   margin-top: 1rem;
 }
 
-
+.left {
+  text-align: left;
+}
 /* ------ VIDEO AULA ------ */
-/* #video {
-  width: 70%;
-  height: 10vh;
-} */
+
 iframe {
   aspect-ratio: 16/9;
   width: 100%;
@@ -761,10 +760,3 @@ iframe {
     max-width: 70%;
   }
 }
-
-/* @media (max-width: 359px) {
-  #video {
-    width: 70%;
-    height: 240px;
-  }
-} */
